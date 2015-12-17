@@ -1,10 +1,10 @@
 # jQPager
 基于jquery的分页导航条
 
-+ ##starting##
-import jquery.page.js and jquery.page.css;
+## starting
++ 1、import jquery.page.js and jquery.page.css;
 
-$("#Pagination").pagination({
++ 2、$("#Pagination").pagination({
 		maxentries:1,
 		callback: pageselectCallback,//PageCallback() 为翻页调用次函数。
 		prev_text: "上一页",
@@ -16,7 +16,7 @@ $("#Pagination").pagination({
 		link_to:"javascript:void(0);"
 });
 
-$("#Pagination").render({maxentries:data.total, current_page:1});
++ 3、$("#Pagination").render({maxentries:data.total, current_page:1});
 	
 	
 
