@@ -1,7 +1,7 @@
 # jQPager
 基于jquery的分页导航条
 
-##1、starting
++##starting
 import jquery.page.js and jquery.page.css;
 
 $("#Pagination").pagination({
