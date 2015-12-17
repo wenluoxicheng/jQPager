@@ -4,7 +4,9 @@
 ## starting
 + 1、import jquery.page.js and jquery.page.css;
 
-+ 2、$("#Pagination").pagination({
++ 2、初始化
+```
+$("#Pagination").pagination({
 		maxentries:1,
 		callback: pageselectCallback,//PageCallback() 为翻页调用次函数。
 		prev_text: "上一页",
@@ -15,8 +17,12 @@
 		num_edge_entries: 2, //连续分页主体部分分页条目数
 		link_to:"javascript:void(0);"
 });
+```
 
-+ 3、$("#Pagination").render({maxentries:data.total, current_page:1});
++ 3、渲染
+```
+$("#Pagination").render({maxentries:data.total, current_page:1});
+```
 	
 	
 
