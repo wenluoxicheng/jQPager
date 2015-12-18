@@ -6,7 +6,7 @@
 
 + 2、初始化
 ```
-$("#Pagination").pagination({
+$("#Pagination").pager({
 		maxentries:1,
 		callback: pageselectCallback,//PageCallback() 为翻页调用次函数。
 		prev_text: "上一页",
