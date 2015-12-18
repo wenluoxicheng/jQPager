@@ -7,7 +7,7 @@
  * @return {Object} jQuery Object
  */
 ;(function ($, window) {
-jQuery.fn.pagination = function(opts) {
+jQuery.fn.pager = function(opts) {
 	opts = jQuery.extend({
 		maxentries:0,
 		items_per_page: 10,
